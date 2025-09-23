@@ -8,8 +8,8 @@ struct Cidade {
     int area_km2;
     float pib;
     int pontos_turisticos;
-    float densidade_populacional;
-    float pib_per_capita;         
+    float densidade_populacional; // novo campo
+    float pib_per_capita;         // novo campo
 };
 
 int main() {
@@ -94,5 +94,5 @@ int main() {
     printf("Densidade populacional: %.2f hab/km2\n", c2.densidade_populacional);
     printf("PIB per capita: %.2f\n", c2.pib_per_capita);
 
-    return 0;
+    return 0;
 }
